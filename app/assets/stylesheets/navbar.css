@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+
+}
+.navbar-bis{
+  height: 60px;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.home a {
+  color: #777;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+}
+.new a {
+  color: #777;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+}
+

@@ -1,0 +1,13 @@
+<div class="product">
+  <% @articles.each do |article| %>
+  <div class='product-body'>
+    <h3><%= article.title %></h3>
+    <p><%= article.content %></p>
+  </div>
+  <ul class="list-inline product-controls hidden-sm hidden-xs">
+    <li><a href=""><i class="fa fa-heart"></i></a></li>
+    <li><a href=""><i class="fa fa-share"></i></a></li>
+    <li><a href=""><i class="fa fa-star"></i></a></li>
+  </ul>
+  <% end %>
+</div>
